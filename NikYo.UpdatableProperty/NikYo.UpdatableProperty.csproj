@@ -4,6 +4,22 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>NikYo.UpdatableProperty</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>Nikki Yodo</Authors>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>Manage updatable properties of a class.</Description>
+    <PackageTags>property,C#</PackageTags>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageProjectUrl>https://github.com/nik-yo/NikYo.UpdatableProperty</PackageProjectUrl>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md" Pack="true" PackagePath="" />
+  </ItemGroup>
 </Project>
