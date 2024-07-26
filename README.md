@@ -1,6 +1,6 @@
 # NikYo.UpdatableProperty
 
-A simple package to build cron expression.
+Manage updatable properties of a class.
 
 ## Version
 
@@ -66,8 +66,8 @@ Console.WriteLine($"Updated2: {JsonSerializer.Serialize(dog)}");
 
 ## Limitations
 
-- It is using reflection.
-- For loop over all the properties.
+- It uses reflection.
+- For loop is used over all the properties.
 
 ## License
 
